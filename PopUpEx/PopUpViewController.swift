@@ -18,7 +18,6 @@ class PopUpViewController: UIViewController {
         let view = UIView()
         view.backgroundColor = .white
         view.layer.cornerRadius = 8
-        view.isHidden = false
         view.transform = CGAffineTransform(scaleX: 1.1, y: 1.1)
 
         return view
