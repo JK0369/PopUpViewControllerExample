@@ -98,6 +98,7 @@ class PopUpViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
+        // curveEaseOut: 시작은 천천히, 끝날 땐 빠르게
         UIView.animate(withDuration: 0.1, delay: 0.0, options: .curveEaseOut) { [weak self] in
             self?.containerView.transform = .identity
             self?.containerView.isHidden = false
@@ -107,7 +108,8 @@ class PopUpViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
 
-        UIView.animate(withDuration: 0.1, delay: 0.0, options: .curveEaseOut) { [weak self] in
+        // curveEaseIn: 시작은 빠르게, 끝날 땐 천천히
+        UIView.animate(withDuration: 0.1, delay: 0.0, options: .curveEaseIn) { [weak self] in
             self?.containerView.transform = .identity
             self?.containerView.isHidden = true
         }
