@@ -19,5 +19,20 @@ class ViewController: UIViewController {
         showPopUp(title: "타이틀", message: "메세지")
     }
 
+    @IBAction func didTapCallAPIButton(_ sender: Any) {
+        processBusinessLogic()
+    }
+
+    func processBusinessLogic() {
+        print("start BusinessLogic !!")
+
+        API.someAPI { result in
+            switch result {
+            case .success: print("success!!")
+            case .failure(let error):
+                ErrorHandler.showAlert(error, completionDidTapRetryButton: { [weak self] in self?.processBusinessLogic() } )
+            }
+        }
+    }
 }
 

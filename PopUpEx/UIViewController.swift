@@ -11,7 +11,7 @@ extension UIViewController {
     func showPopUp(title: String? = nil,
                    message: String? = nil,
                    attributedMessage: NSAttributedString? = nil,
-                   leftActionTitle: String = "취소",
+                   leftActionTitle: String? = "취소",
                    rightActionTitle: String = "확인",
                    leftActionCompletion: (() -> Void)? = nil,
                    rightActionCompletion: (() -> Void)? = nil) {
@@ -26,7 +26,7 @@ extension UIViewController {
     }
 
     func showPopUp(contentView: UIView,
-                   leftActionTitle: String = "취소",
+                   leftActionTitle: String? = "취소",
                    rightActionTitle: String = "확인",
                    leftActionCompletion: (() -> Void)? = nil,
                    rightActionCompletion: (() -> Void)? = nil) {
@@ -40,7 +40,7 @@ extension UIViewController {
     }
 
     private func showPopUp(popUpViewController: PopUpViewController,
-                           leftActionTitle: String,
+                           leftActionTitle: String?,
                            rightActionTitle: String,
                            leftActionCompletion: (() -> Void)?,
                            rightActionCompletion: (() -> Void)?) {

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E03C0A4226F06C2500B94E04 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03C0A4126F06C2500B94E04 /* UIViewController.swift */; };
+		E0D7103E271EF4CE00552961 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D7103D271EF4CE00552961 /* ErrorHandler.swift */; };
+		E0D71043271EF80700552961 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D71042271EF80700552961 /* API.swift */; };
 		E0F3202326F06057001D0B5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F3202226F06057001D0B5E /* AppDelegate.swift */; };
 		E0F3202526F06057001D0B5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F3202426F06057001D0B5E /* SceneDelegate.swift */; };
 		E0F3202726F06057001D0B5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F3202626F06057001D0B5E /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		E03C0A4126F06C2500B94E04 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		E0D7103D271EF4CE00552961 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		E0D71042271EF80700552961 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		E0F3201F26F06057001D0B5E /* PopUpEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopUpEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F3202226F06057001D0B5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0F3202426F06057001D0B5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0D71041271EF60D00552961 /* ErrorHandler */ = {
+			isa = PBXGroup;
+			children = (
+				E0D7103D271EF4CE00552961 /* ErrorHandler.swift */,
+			);
+			path = ErrorHandler;
+			sourceTree = "<group>";
+		};
 		E0F3201626F06057001D0B5E = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +72,7 @@
 		E0F3202126F06057001D0B5E /* PopUpEx */ = {
 			isa = PBXGroup;
 			children = (
+				E0D71041271EF60D00552961 /* ErrorHandler */,
 				E0F3202226F06057001D0B5E /* AppDelegate.swift */,
 				E0F3202426F06057001D0B5E /* SceneDelegate.swift */,
 				E0F3202626F06057001D0B5E /* ViewController.swift */,
@@ -69,6 +82,7 @@
 				E0F3203026F06058001D0B5E /* Info.plist */,
 				E0F3203626F06062001D0B5E /* PopUpViewController.swift */,
 				E03C0A4126F06C2500B94E04 /* UIViewController.swift */,
+				E0D71042271EF80700552961 /* API.swift */,
 			);
 			path = PopUpEx;
 			sourceTree = "<group>";
@@ -146,8 +160,10 @@
 				E0F3202726F06057001D0B5E /* ViewController.swift in Sources */,
 				E0F3202326F06057001D0B5E /* AppDelegate.swift in Sources */,
 				E0F3202526F06057001D0B5E /* SceneDelegate.swift in Sources */,
+				E0D7103E271EF4CE00552961 /* ErrorHandler.swift in Sources */,
 				E0F3203726F06062001D0B5E /* PopUpViewController.swift in Sources */,
 				E03C0A4226F06C2500B94E04 /* UIViewController.swift in Sources */,
+				E0D71043271EF80700552961 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

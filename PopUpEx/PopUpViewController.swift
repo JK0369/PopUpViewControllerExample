@@ -119,6 +119,8 @@ class PopUpViewController: UIViewController {
                                   titleColor: UIColor = .white,
                                   backgroundColor: UIColor = .blue,
                                   completion: (() -> Void)? = nil) {
+        guard let title = title else { return }
+
         let button = UIButton()
         button.titleLabel?.font = .systemFont(ofSize: 16.0, weight: .bold)
 
