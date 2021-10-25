@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E03C0A4226F06C2500B94E04 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03C0A4126F06C2500B94E04 /* UIViewController.swift */; };
+		E09A1FA82726AC5B0099D9BE /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09A1FA72726AC5B0099D9BE /* UIWindow.swift */; };
 		E0D7103E271EF4CE00552961 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D7103D271EF4CE00552961 /* ErrorHandler.swift */; };
 		E0D71043271EF80700552961 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D71042271EF80700552961 /* API.swift */; };
 		E0F3202326F06057001D0B5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F3202226F06057001D0B5E /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		E03C0A4126F06C2500B94E04 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		E09A1FA72726AC5B0099D9BE /* UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindow.swift; sourceTree = "<group>"; };
 		E0D7103D271EF4CE00552961 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		E0D71042271EF80700552961 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		E0F3201F26F06057001D0B5E /* PopUpEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopUpEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				E0D7103D271EF4CE00552961 /* ErrorHandler.swift */,
+				E09A1FA72726AC5B0099D9BE /* UIWindow.swift */,
 			);
 			path = ErrorHandler;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				E0F3203726F06062001D0B5E /* PopUpViewController.swift in Sources */,
 				E03C0A4226F06C2500B94E04 /* UIViewController.swift in Sources */,
 				E0D71043271EF80700552961 /* API.swift in Sources */,
+				E09A1FA82726AC5B0099D9BE /* UIWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -52,7 +52,7 @@ struct ErrorHandler {
             rightActionCallback = completionDidTapRetryButton
         }
 
-        let rootViewController = UIApplication.shared.windows.first?.rootViewController
+        let rootViewController = UIApplication.shared.windows.first?.visibleViewController
         DispatchQueue.main.async {
             rootViewController?.showPopUp(title: errorData.title,
                                           message: errorData.message,
